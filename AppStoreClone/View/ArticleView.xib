@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Ped-sF-tJX">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="1025"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5fO-aJ-CXR">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="1025"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gLO-cc-tw1" userLabel="Content View">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1025.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TRY NOW" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EqI-xq-2TN">
+                                    <rect key="frame" x="20" y="20" width="66" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sleep better" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3u-Ek-nj6">
+                                    <rect key="frame" x="20" y="42" width="154.5" height="32.5"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sleep" translatesAutoresizingMaskIntoConstraints="NO" id="Gho-07-uyt">
+                                    <rect key="frame" x="20" y="79.5" width="374" height="250"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="250" id="TwZ-ph-XeH"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sleep is important. Here are some tips to improve it." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UNx-n4-gGS">
+                                    <rect key="frame" x="20" y="334.5" width="374" height="41"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stick to a sleep schedule" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o1R-1Y-ywu">
+                                    <rect key="frame" x="20" y="395.5" width="374" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tM-o9-uLp">
+                                    <rect key="frame" x="20" y="436" width="374" height="223.5"/>
+                                    <string key="text">Set aside no more than eight hours for sleep. The recommended amount of sleep for a healthy adult is at least seven hours. Most people don't need more than eight hours in bed to achieve this goal.  Go to bed and get up at the same time every day. Try to limit the difference in your sleep schedule on weeknights and weekends to no more than one hour. Being consistent reinforces your body's sleep-wake cycle.</string>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pay attention to what you eat and drink" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEd-ab-VB0">
+                                    <rect key="frame" x="20" y="679.5" width="374" height="21"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QWc-8Z-m2F">
+                                    <rect key="frame" x="20" y="720.5" width="374" height="81.5"/>
+                                    <string key="text">Don't go to bed hungry or stuffed. In particular, avoid heavy or large meals within a couple of hours of bedtime. Your discomfort might keep you up.</string>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create a restful environment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gbt-2Q-Z3r">
+                                    <rect key="frame" x="20" y="822" width="374" height="21"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="quz-Gi-7aC">
+                                    <rect key="frame" x="20" y="863" width="374" height="142.5"/>
+                                    <string key="text">Create a room that's ideal for sleeping. Often, this means cool, dark and quiet. Exposure to light might make it more challenging to fall asleep. Avoid prolonged use of light-emitting screens just before bedtime. Consider using room-darkening shades, earplugs, a fan or other devices to create an environment that suits your needs.</string>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="Gbt-2Q-Z3r" secondAttribute="trailing" constant="20" id="3N1-K5-ape"/>
+                                <constraint firstItem="zEd-ab-VB0" firstAttribute="leading" secondItem="gLO-cc-tw1" secondAttribute="leading" constant="20" id="47d-TS-J91"/>
+                                <constraint firstItem="Gho-07-uyt" firstAttribute="top" secondItem="A3u-Ek-nj6" secondAttribute="bottom" constant="5" id="48C-9Y-8up"/>
+                                <constraint firstItem="QWc-8Z-m2F" firstAttribute="top" secondItem="zEd-ab-VB0" secondAttribute="bottom" constant="20" id="59J-IC-Nlc"/>
+                                <constraint firstItem="quz-Gi-7aC" firstAttribute="top" secondItem="Gbt-2Q-Z3r" secondAttribute="bottom" constant="20" id="5Ns-7a-V4L"/>
+                                <constraint firstItem="QWc-8Z-m2F" firstAttribute="leading" secondItem="gLO-cc-tw1" secondAttribute="leading" constant="20" id="8uk-lg-Fj8"/>
+                                <constraint firstItem="quz-Gi-7aC" firstAttribute="leading" secondItem="gLO-cc-tw1" secondAttribute="leading" constant="20" id="9JR-1T-JQQ"/>
+                                <constraint firstItem="Gbt-2Q-Z3r" firstAttribute="top" secondItem="QWc-8Z-m2F" secondAttribute="bottom" constant="20" id="Amf-7y-M4c"/>
+                                <constraint firstItem="8tM-o9-uLp" firstAttribute="leading" secondItem="gLO-cc-tw1" secondAttribute="leading" constant="20" id="BUS-yS-pXv"/>
+                                <constraint firstItem="o1R-1Y-ywu" firstAttribute="leading" secondItem="gLO-cc-tw1" secondAttribute="leading" constant="20" id="DeC-d7-iaP"/>
+                                <constraint firstAttribute="trailing" secondItem="QWc-8Z-m2F" secondAttribute="trailing" constant="20" id="EuQ-oO-9Am"/>
+                                <constraint firstItem="UNx-n4-gGS" firstAttribute="leading" secondItem="gLO-cc-tw1" secondAttribute="leading" constant="20" id="GDw-Nk-lRX"/>
+                                <constraint firstAttribute="trailing" secondItem="Gho-07-uyt" secondAttribute="trailing" constant="20" id="JSw-Wm-txl"/>
+                                <constraint firstItem="Gho-07-uyt" firstAttribute="leading" secondItem="gLO-cc-tw1" secondAttribute="leading" constant="20" id="PFS-eL-tK6"/>
+                                <constraint firstItem="zEd-ab-VB0" firstAttribute="top" secondItem="8tM-o9-uLp" secondAttribute="bottom" constant="20" id="QSi-jk-rWK"/>
+                                <constraint firstAttribute="trailing" secondItem="quz-Gi-7aC" secondAttribute="trailing" constant="20" id="Syt-uU-c8B"/>
+                                <constraint firstAttribute="bottom" secondItem="quz-Gi-7aC" secondAttribute="bottom" constant="20" id="VTc-Kv-5iX"/>
+                                <constraint firstItem="UNx-n4-gGS" firstAttribute="top" secondItem="Gho-07-uyt" secondAttribute="bottom" constant="5" id="WsE-fy-H2v"/>
+                                <constraint firstItem="8tM-o9-uLp" firstAttribute="top" secondItem="o1R-1Y-ywu" secondAttribute="bottom" constant="20" id="XLl-fI-ai9"/>
+                                <constraint firstAttribute="trailing" secondItem="o1R-1Y-ywu" secondAttribute="trailing" constant="20" id="bMw-6m-wn1"/>
+                                <constraint firstItem="Gbt-2Q-Z3r" firstAttribute="leading" secondItem="gLO-cc-tw1" secondAttribute="leading" constant="20" id="cWV-oZ-7QA"/>
+                                <constraint firstItem="EqI-xq-2TN" firstAttribute="top" secondItem="gLO-cc-tw1" secondAttribute="top" constant="20" id="cck-IC-1JB"/>
+                                <constraint firstAttribute="trailing" secondItem="zEd-ab-VB0" secondAttribute="trailing" constant="20" id="fje-gT-Mv0"/>
+                                <constraint firstItem="A3u-Ek-nj6" firstAttribute="top" secondItem="EqI-xq-2TN" secondAttribute="bottom" constant="5" id="ft3-ar-HSa"/>
+                                <constraint firstItem="A3u-Ek-nj6" firstAttribute="leading" secondItem="gLO-cc-tw1" secondAttribute="leading" constant="20" id="jds-xT-ix5"/>
+                                <constraint firstAttribute="trailing" secondItem="8tM-o9-uLp" secondAttribute="trailing" constant="20" id="lkO-h9-JJZ"/>
+                                <constraint firstItem="o1R-1Y-ywu" firstAttribute="top" secondItem="UNx-n4-gGS" secondAttribute="bottom" constant="20" id="mql-u1-d0G"/>
+                                <constraint firstAttribute="trailing" secondItem="UNx-n4-gGS" secondAttribute="trailing" constant="20" id="puo-6X-Llr"/>
+                                <constraint firstItem="EqI-xq-2TN" firstAttribute="leading" secondItem="gLO-cc-tw1" secondAttribute="leading" constant="20" id="u5a-n7-ZAk"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="gLO-cc-tw1" firstAttribute="trailing" secondItem="3Ro-MK-z8U" secondAttribute="trailing" id="ISr-iR-Nux"/>
+                        <constraint firstItem="gLO-cc-tw1" firstAttribute="top" secondItem="3Ro-MK-z8U" secondAttribute="top" id="J1k-Z5-10n"/>
+                        <constraint firstItem="gLO-cc-tw1" firstAttribute="width" secondItem="Pgg-n9-oRN" secondAttribute="width" id="Sag-gk-j6Q"/>
+                        <constraint firstItem="gLO-cc-tw1" firstAttribute="bottom" secondItem="3Ro-MK-z8U" secondAttribute="bottom" id="Sdm-dn-vxs"/>
+                        <constraint firstItem="gLO-cc-tw1" firstAttribute="leading" secondItem="3Ro-MK-z8U" secondAttribute="leading" id="c34-5a-5by"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="3Ro-MK-z8U"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="Pgg-n9-oRN"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="PM2-h8-BNL"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="5fO-aJ-CXR" secondAttribute="bottom" id="9p9-O0-4wy"/>
+                <constraint firstItem="5fO-aJ-CXR" firstAttribute="leading" secondItem="PM2-h8-BNL" secondAttribute="leading" id="Xpy-FY-CmV"/>
+                <constraint firstItem="PM2-h8-BNL" firstAttribute="trailing" secondItem="5fO-aJ-CXR" secondAttribute="trailing" id="fe7-kA-97d"/>
+                <constraint firstItem="5fO-aJ-CXR" firstAttribute="top" secondItem="Ped-sF-tJX" secondAttribute="top" id="n6j-uJ-rGJ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="992.75362318840587" y="-100.44642857142857"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Sleep" width="1057.2099609375" height="835.53997802734375"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MonumentValleyBackground" translatesAutoresizingMaskIntoConstraints="NO" id="KbL-dp-7ac">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="460"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="460" id="otx-EU-55w"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GAME OF THE DAY" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDW-aq-UHL">
+                    <rect key="frame" x="20" y="188" width="168.5" height="172"/>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="48"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apple Game of the Year 2014" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMo-v8-etx">
+                    <rect key="frame" x="20" y="480" width="374" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="asn-ja-ChW">
+                    <rect key="frame" x="20" y="521" width="374" height="61"/>
+                    <string key="text">In Monument Valley you will manipulate impossible architecture and guide a silent princess through a stunningly beautiful world.</string>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZW-Qd-reK">
+                    <rect key="frame" x="20" y="602" width="374" height="122"/>
+                    <string key="text">Monument Valley is a surreal exploration through fantastical architecture and impossible geometry. Guide the silent princess Ida through mysterious monuments, uncovering hidden paths, unfolding optical illusions and outsmarting the enigmatic Crow People.</string>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r2e-za-z4x">
+                    <rect key="frame" x="0.0" y="380" width="414" height="80"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="p4x-qo-Acq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gWL-5I-BG4" customClass="AppCell" customModule="AppStoreClone" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="icon" value="MonumentValleyIcon"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="name" value="Monument Valley"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="subtitle" value="A Quest for Forgiveness"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="nameColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="subtitleColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="buttonColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="gWL-5I-BG4" secondAttribute="bottom" id="9xS-dM-T0H"/>
+                            <constraint firstAttribute="trailing" secondItem="gWL-5I-BG4" secondAttribute="trailing" id="H6s-z2-qrT"/>
+                            <constraint firstItem="gWL-5I-BG4" firstAttribute="leading" secondItem="p4x-qo-Acq" secondAttribute="leading" id="iQt-SI-oWo"/>
+                            <constraint firstItem="gWL-5I-BG4" firstAttribute="top" secondItem="p4x-qo-Acq" secondAttribute="top" id="uPM-8s-XY0"/>
+                        </constraints>
+                    </view>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="IzC-Pp-jRN"/>
+                    </constraints>
+                    <blurEffect style="systemUltraThinMaterialDark"/>
+                </visualEffectView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vZW-Qd-reK" firstAttribute="top" secondItem="asn-ja-ChW" secondAttribute="bottom" constant="20" id="6vH-BH-Hjn"/>
+                <constraint firstItem="KbL-dp-7ac" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Aew-nG-J31"/>
+                <constraint firstItem="TMo-v8-etx" firstAttribute="top" secondItem="KbL-dp-7ac" secondAttribute="bottom" constant="20" id="Aoi-Kp-SpS"/>
+                <constraint firstItem="KbL-dp-7ac" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="D0b-P7-G4R"/>
+                <constraint firstItem="TMo-v8-etx" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="Dke-QY-gOR"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="vZW-Qd-reK" secondAttribute="trailing" constant="20" id="LLA-IX-xkg"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="KbL-dp-7ac" secondAttribute="trailing" id="NBW-vk-7i8"/>
+                <constraint firstItem="vZW-Qd-reK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="O4W-lf-xrM"/>
+                <constraint firstItem="asn-ja-ChW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="Ukk-l0-esN"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="TMo-v8-etx" secondAttribute="trailing" constant="20" id="asb-XG-qz9"/>
+                <constraint firstItem="r2e-za-z4x" firstAttribute="bottom" secondItem="KbL-dp-7ac" secondAttribute="bottom" id="fDA-3e-eXN"/>
+                <constraint firstItem="asn-ja-ChW" firstAttribute="top" secondItem="TMo-v8-etx" secondAttribute="bottom" constant="20" id="h0s-pD-twn"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="r2e-za-z4x" secondAttribute="trailing" id="k3j-bU-65s"/>
+                <constraint firstItem="r2e-za-z4x" firstAttribute="top" secondItem="gDW-aq-UHL" secondAttribute="bottom" constant="20" id="lOc-JI-jxm"/>
+                <constraint firstItem="r2e-za-z4x" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="laP-FD-w97"/>
+                <constraint firstItem="gDW-aq-UHL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="vzF-HK-ytU"/>
+                <constraint firstAttribute="trailing" secondItem="asn-ja-ChW" secondAttribute="trailing" constant="20" id="wFB-FZ-es7"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="67.633928571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="MonumentValleyBackground" width="1920" height="1080"/>
+        <image name="MonumentValleyIcon" width="512" height="512"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

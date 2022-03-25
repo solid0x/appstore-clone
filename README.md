@@ -5,9 +5,9 @@ A UIKit-based clone of the native iOS AppStore application.
 
 ## Screenshots
 <p float="left">
-  <img src="/../media/Today.png" width="300">
-  <img src="/../media/Favourites.png" width="300">
-  <img src="/../media/Account.png" width="300">
+  <img src="/../media/Today.png" width="250">
+  <img src="/../media/Favourites.png" width="250">
+  <img src="/../media/Account.png" width="250">
 </p>
 
 ## Features
@@ -17,7 +17,7 @@ A UIKit-based clone of the native iOS AppStore application.
 
 ## GIFs
 <p float="left">
-  <img src="/../media/Scroll.gif">
-  <img src="/../media/Article.gif">
-  <img src="/../media/Game.gif">
+  <img src="/../media/Scroll.gif" width="250">
+  <img src="/../media/Article.gif" width="250">
+  <img src="/../media/Game.gif" width="250">
 </p>
